@@ -155,7 +155,6 @@ void grid_cluster(int n,
             
             if (map_cluster.find(bin) == map_cluster.end()){
                 map_cluster[bin] = temp++;
-                printf("%d\n", temp);
             }
 
             //replace (membershipp.begin(), membershipp.end(), map_cluster_old[current_bin], map_cluster[bin]);
